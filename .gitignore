@@ -1,0 +1,53 @@
+.DS_Store
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Dependencies (should not commit)
+node_modules/
+backend/venv/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+backend/uploads/*
+!backend/uploads/.gitkeep
+temp/
+tmp/
+
+# IDE settings (optional to include)
+.vscode/settings.json
+.idea/*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Database files (if added later)
+*.db
+*.sqlite
+*.sqlite3
