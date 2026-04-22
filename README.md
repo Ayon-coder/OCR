@@ -376,7 +376,3 @@ For issues or questions:
 - Subsequent calls are faster (~1-3 seconds)
 - PaddleOCR is optimized for CPU inference
 - Groq API averages 100-200ms response time
-
----
-
-Built with ❤️ using PaddleOCR and Groq API
